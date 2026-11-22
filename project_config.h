@@ -1,0 +1,12 @@
+#pragma once
+#define FW_VERSION_MAJOR 1
+#define FW_VERSION_MINOR 0
+#define CAN_TX_GPIO 5
+#define CAN_RX_GPIO 4
+#define I2C_SDA_GPIO 21
+#define I2C_SCL_GPIO 22
+#define STATUS_LED_GPIO 2
+#define TELEMETRY_PERIOD_MS 1000
+#define BME280_ADDR 0x76
+#define ADC_DIVIDER_R_TOP_OHM 100000.0f
+#define ADC_DIVIDER_R_BOTTOM_OHM 27000.0f

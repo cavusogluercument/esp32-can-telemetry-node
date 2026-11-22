@@ -1,0 +1,19 @@
+Ref,Qty,Part,Value/MPN,Notes
+U1,1,ESP32-WROOM-32E,ESP32-WROOM-32E,MCU/module
+U2,1,CAN transceiver,SN65HVD230D,SOIC-8 3.3V
+U3,1,Environmental sensor,BME280,Verify exact LGA footprint
+U4,1,LDO,AP2112K-3.3,Example 600mA LDO; verify thermal/current margin
+R1,1,Resistor,100k 1%,ADC divider top
+R2,1,Resistor,27k 1%,ADC divider bottom
+R3,1,Resistor,1k,ADC series protection
+R4-R5,2,Resistor,4.7k,I2C pullups
+R6,1,Resistor,120R,CAN termination
+R7,1,Resistor,330R,LED
+C1-C4,4,Capacitor,100nF,Local decoupling
+C5-C6,2,Capacitor,10uF,Power bulk
+C7,1,Capacitor,10nF,ADC RC filter
+LED1,1,LED,Green,Status
+JP1,1,Jumper,2-pin,Termination enable
+J1,1,Connector,3-pin,CANH CANL GND
+J2,1,Connector,2-pin,5V GND
+J3,1,Header,1x6,Programming/debug
